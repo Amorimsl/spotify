@@ -1,0 +1,88 @@
+
+body{
+  background:#564A4E;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#after-img-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+#button-conteiner{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#after-img-box{
+  margin: 2em 0 1.5em 0;
+}
+#song-box p{
+  display: flex;
+  justify-content: center;
+}
+.button {
+  font-size: 2rem;
+  background:none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#play{
+  font-size: 4rem;
+
+}
+#start{
+  font-size: 3rem;
+}
+
+#skip-end{
+  font-size: 3rem;
+}
+
+#cover{
+  width:450px;
+}
+
+#song-name{
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+#actor-name{
+  color: rgb(48, 36, 40);
+  font-weight: bolder;
+}
+#progress-bar{
+  background-color: rgb(48, 36, 40) ;
+  height: 4px;
+  width: 100%;
+  border-radius: 15px;
+}
+#current-progress{
+  --progress: 0%;
+  background-color:white;
+  height: inherit;
+  width: var(--progress);
+  border-radius: 15px;
+}
+
+#button-conteiner{
+  margin:1.5em 0 0 0;
+}
+#progress-content{
+  padding-bottom: .5em;
+  cursor: pointer;
+}
+
+#like {
+  --col:white;
+  color: var(--col);
+}
+
+.button-active{
+  color: green;
+}
